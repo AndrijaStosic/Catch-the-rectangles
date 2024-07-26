@@ -85,7 +85,7 @@ def povecaj_poene():
     global level, brojac_klikova
     if brojac_klikova % 5 == 0 and brojac_klikova != 0:
         level += 1
-        brojac_klikova = 0  # Reset the counter after level increment
+        brojac_klikova = 0  
 
 def pravi_protivnika():
     x_protivnik = random.randint(10, 670)
